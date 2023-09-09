@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+.bold{
+    font-weight: 600;
+    font-size: 34px;
+    color: hsl(210, 10%, 33%);
+}
+.light{
+    font-weight:400;
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+}
+.ios{
+
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 3px 10px hsl(171, 66%, 44%);
+}
+.mac{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 3px 10px  hsl(233, 100%, 69%);
+
+}
+button{
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    width:270px;
+    height: 70px;
+    margin: 15px;
+    cursor: pointer;
+}
+header{
+    height: 100vh;
+    width: 100%;/*
+    background-image: url("./images/bg-header-desktop.png");
+    background-size: cover;
+    position: absolute;*/
+    text-align: center;
+}
+.header-bg {
+    width: 100%;
+    position: absolute;
+}
+.logo{
+    margin-top: 150px;
+}
+.header-heading{
+    font-size: 60px;
+    margin: 60px 0 20px 0;
+}
+.main-text {
+    width: 70%;
+    margin: auto;
+}
+.header-paragraph {
+    font-size: 28px;
+    margin-bottom: 60px;
+}
+
+                                    /* The second page */
+.sec {
+    margin:50px auto 80px auto;
+    text-align: center;
+    width: 48%;
+}
+.sec-heading {
+    margin: 20px auto;
+}
+                                    /* Third section */
+.half-sec {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.half-img{
+    margin-right: 70px;
+    position: relative;
+    left: -50px;
+
+}
+.text-con{
+    margin:30px 50px 40px;
+    width: 60%;
+}
+                                    /* Fourth section */
+.spaceing{
+    margin: 80px auto;
+}
+.second-img{
+    display: flex;
+    margin: -10px auto -20px auto;
+}
+                                    /* Card section */
+.card-con{
+    margin:120px 0 100px 0;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+.card{
+    text-align: center;
+    width: 27%;
+}
+.img-card{
+    margin-bottom: 20px;
+}
+                                    /* Logos */
+.logo-con{
+    text-align: center;
+    margin: auto;
+
+}
+.logo-con img{
+    margin: 20px 65px;
+}
+                                    /* Fifth section */
+.last-sec{
+    margin: 100px auto;
+}
+.last-p{
+    margin-bottom: 50px;
+}
+                                    /* Footer */
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:space-evenly;
+    background-color:hsl(206, 30%, 95%) ;
+}
+footer img{
+    height: 50%;
+    text-align: center;
+    margin-top: 25px;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 13px;
+    margin-top: 20px;
+}
+a{
+    font-weight:400;
+    color: hsl(210, 10%, 33%);
+    text-decoration: none;
+    margin: 0 15px;
+}
+.icons{
+    margin-top: 20px;
+}
+i{
+    margin-top: 25px;
+    width: 40px;
+}
+/*.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }*/
